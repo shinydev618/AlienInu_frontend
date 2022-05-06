@@ -2,8 +2,8 @@ import { Box } from '@material-ui/core';
 import styled from "styled-components";
 import Topbar from "../topbar/topbar";
 import { CgEditBlackPoint } from "react-icons/cg"
-import CustomBtn from '../../components/CustomBtn';
-import CustomInput from "../../components/CustomInput";
+// import CustomBtn from '../../components/CustomBtn';
+// import CustomInput from "../../components/CustomInput";
 import IMG_RANK01 from "../../assets/images/trans1.png";
 import IMG_RANK02 from "../../assets/images/trans2.png";
 import IMG_RANK03 from "../../assets/images/trans3.png";
