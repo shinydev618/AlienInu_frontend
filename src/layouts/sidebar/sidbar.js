@@ -9,13 +9,16 @@ import IMG_ALIANCES from "../../assets/images/icons/alien-alleses.svg";
 import IMG_MARKET from "../../assets/images/icons/glastic-market.svg";
 import IMG_LUNCHPAD from "../../assets/images/icons/alien-lunchpad.svg";
 import { FaTelegramPlane, FaTwitter, FaChartArea, FaBattleNet } from "react-icons/fa";
-
+import { useNavigate } from "react-router-dom";
 
 const Sidebar = () => {
-
+    let navigate = useNavigate();
     return (
         <StyledComponent>
-            <IMGLOGO>
+            <IMGLOGO onClick={() => {
+                navigate("/");
+                window.scrollTo(0, 0);
+            }}>
                 <img src={IMG_Logo} width="100%" alt="" />
             </IMGLOGO>
             <Box display={"flex"} mt="30px" flexDirection={"column"} alignItems="center" width={"100%"}>
@@ -51,7 +54,10 @@ const Sidebar = () => {
                         <img src={IMG_ALIANCES} width={"25px"} height="25px" alt="" />
                     </Box>
                 </LinkIcon01>
-                <LinkIcon01>
+                <LinkIcon01 onClick={() => {
+                    navigate("/galatic_market");
+                    window.scrollTo(0, 0);
+                }}>
                     <LeftText01 ml={"20px"}>
                         Galatic Market
                     </LeftText01>

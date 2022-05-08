@@ -1,9 +1,10 @@
 import React from "react";
 import { Box } from '@material-ui/core';
 import styled from "styled-components";
+import { useNavigate } from "react-router-dom";
 
 const Footer = () => {
-
+    let navigate = useNavigate();
     return (
         <StyledComponent>
             <Box display={"flex"} justifyContent="center" color={"black"} fontSize='1.5rem' fontWeight={"700"} mt="100px">
@@ -21,7 +22,10 @@ const Footer = () => {
                 decisions.
             </Box>
             <Box display={"flex"} mt="30px" justifyContent={"center"}>
-                <ButtonHome>
+                <ButtonHome onClick={() => {
+                    navigate("/");
+                    window.scrollTo(0, 0);
+                }}>
                     HOME
                 </ButtonHome>
                 <ButtonConnect>
@@ -94,6 +98,10 @@ const PalyMusicBox = styled(Box)`
     background-repeat: no-repeat;
     bottom: 10px;
     right: 10px;
+    &:hover{
+        cursor: pointer;
+    }
 `
+
 
 export default Footer;
