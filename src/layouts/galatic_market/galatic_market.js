@@ -6,6 +6,7 @@ import IMG_CHARACTER01 from "../../assets/images/slider-1.png";
 import IMG_SLIDE from "../../assets/images/Group 1368.png";
 import { useNavigate } from "react-router-dom";
 import IMG_CIRCLE from "../../assets/images/slider-2.png";
+import IMG_SHOW from "../../assets/images/glimpse.png";
 
 const GalaticMarket = () => {
     let navigate = useNavigate();
@@ -23,6 +24,9 @@ const GalaticMarket = () => {
                 <CharacterBox01>
                     <BigImage01>
                         <ImageArea>
+                            <img src={IMG_SHOW} width="100%" height={"100%"} style={{
+                                borderRadius: "20px"
+                            }} alt="" />
                         </ImageArea>
                     </BigImage01>
                     <SmallImage01>
@@ -63,15 +67,15 @@ const GalaticMarket = () => {
                 </LetterBox01>
                 <Artists01>
                     <ArtCollections01 display={"flex"} alignItems="center" justifyContent={"center"} onClick={() => {
-                navigate("/art_collections");
-                window.scrollTo(0, 0);
-            }}>
+                        navigate("/art_collections");
+                        window.scrollTo(0, 0);
+                    }}>
                         <Box display={"flex"} color="white" fontSize="2rem" fontWeight={"700"}>
                             1
                         </Box>
                         <Box display={"flex"} borderRadius="100%" border="1px solid #41F50C" width={"40px"} height="40px" ml="30px">
                             <img src={IMG_CIRCLE} width="100%" height="100%" alt="" style={{
-                                borderRadius:"100%"
+                                borderRadius: "100%"
                             }} />
                         </Box>
                         <CollectionLetter01 display={"flex"} ml="10px" flexDirection="column" color="white" fontSize="1rem" fontWeight={"600"}>
@@ -80,15 +84,15 @@ const GalaticMarket = () => {
                         </CollectionLetter01>
                     </ArtCollections01>
                     <ArtCollections01 display={"flex"} alignItems="center" justifyContent={"center"} onClick={() => {
-                navigate("/art_collections");
-                window.scrollTo(0, 0);
-            }}>
+                        navigate("/art_collections");
+                        window.scrollTo(0, 0);
+                    }}>
                         <Box display={"flex"} color="white" fontSize="2rem" fontWeight={"700"}>
                             2
                         </Box>
                         <Box display={"flex"} borderRadius="100%" border="1px solid #41F50C" width={"40px"} height="40px" ml="30px">
                             <img src={IMG_CIRCLE} width="100%" height="100%" alt="" style={{
-                                borderRadius:"100%"
+                                borderRadius: "100%"
                             }} />
                         </Box>
                         <CollectionLetter01 display={"flex"} ml="10px" flexDirection="column" color="white" fontSize="1rem" fontWeight={"600"}>
@@ -97,15 +101,15 @@ const GalaticMarket = () => {
                         </CollectionLetter01>
                     </ArtCollections01>
                     <ArtCollections01 display={"flex"} alignItems="center" justifyContent={"center"} onClick={() => {
-                navigate("/art_collections");
-                window.scrollTo(0, 0);
-            }}>
+                        navigate("/art_collections");
+                        window.scrollTo(0, 0);
+                    }}>
                         <Box display={"flex"} color="white" fontSize="2rem" fontWeight={"700"}>
                             3
                         </Box>
                         <Box display={"flex"} borderRadius="100%" border="1px solid #41F50C" width={"40px"} height="40px" ml="30px">
                             <img src={IMG_CIRCLE} width="100%" height="100%" alt="" style={{
-                                borderRadius:"100%"
+                                borderRadius: "100%"
                             }} />
                         </Box>
                         <CollectionLetter01 display={"flex"} ml="10px" flexDirection="column" color="white" fontSize="1rem" fontWeight={"600"}>
@@ -114,15 +118,15 @@ const GalaticMarket = () => {
                         </CollectionLetter01>
                     </ArtCollections01>
                     <ArtCollections01 display={"flex"} alignItems="center" justifyContent={"center"} onClick={() => {
-                navigate("/art_collections");
-                window.scrollTo(0, 0);
-            }}>
+                        navigate("/art_collections");
+                        window.scrollTo(0, 0);
+                    }}>
                         <Box display={"flex"} color="white" fontSize="2rem" fontWeight={"700"}>
                             4
                         </Box>
                         <Box display={"flex"} borderRadius="100%" border="1px solid #41F50C" width={"40px"} height="40px" ml="30px">
                             <img src={IMG_CIRCLE} width="100%" height="100%" alt="" style={{
-                                borderRadius:"100%"
+                                borderRadius: "100%"
                             }} />
                         </Box>
                         <CollectionLetter01 display={"flex"} ml="10px" flexDirection="column" color="white" fontSize="1rem" fontWeight={"600"}>
@@ -131,15 +135,15 @@ const GalaticMarket = () => {
                         </CollectionLetter01>
                     </ArtCollections01>
                     <ArtCollections01 display={"flex"} alignItems="center" justifyContent={"center"} onClick={() => {
-                navigate("/art_collections");
-                window.scrollTo(0, 0);
-            }}>
+                        navigate("/art_collections");
+                        window.scrollTo(0, 0);
+                    }}>
                         <Box display={"flex"} color="white" fontSize="2rem" fontWeight={"700"}>
                             5
                         </Box>
                         <Box display={"flex"} borderRadius="100%" border="1px solid #41F50C" width={"40px"} height="40px" ml="30px">
                             <img src={IMG_CIRCLE} width="100%" height="100%" alt="" style={{
-                                borderRadius:"100%"
+                                borderRadius: "100%"
                             }} />
                         </Box>
                         <CollectionLetter01 display={"flex"} ml="10px" flexDirection="column" color="white" fontSize="1rem" fontWeight={"600"}>
@@ -148,15 +152,15 @@ const GalaticMarket = () => {
                         </CollectionLetter01>
                     </ArtCollections01>
                     <ArtCollections01 display={"flex"} alignItems="center" justifyContent={"center"} onClick={() => {
-                navigate("/art_collections");
-                window.scrollTo(0, 0);
-            }}>
+                        navigate("/art_collections");
+                        window.scrollTo(0, 0);
+                    }}>
                         <Box display={"flex"} color="white" fontSize="2rem" fontWeight={"700"}>
                             6
                         </Box>
                         <Box display={"flex"} borderRadius="100%" border="1px solid #41F50C" width={"40px"} height="40px" ml="30px">
                             <img src={IMG_CIRCLE} width="100%" height="100%" alt="" style={{
-                                borderRadius:"100%"
+                                borderRadius: "100%"
                             }} />
                         </Box>
                         <CollectionLetter01 display={"flex"} ml="10px" flexDirection="column" color="white" fontSize="1rem" fontWeight={"600"}>
@@ -165,15 +169,15 @@ const GalaticMarket = () => {
                         </CollectionLetter01>
                     </ArtCollections01>
                     <ArtCollections01 display={"flex"} alignItems="center" justifyContent={"center"} onClick={() => {
-                navigate("/art_collections");
-                window.scrollTo(0, 0);
-            }}>
+                        navigate("/art_collections");
+                        window.scrollTo(0, 0);
+                    }}>
                         <Box display={"flex"} color="white" fontSize="2rem" fontWeight={"700"}>
                             7
                         </Box>
                         <Box display={"flex"} borderRadius="100%" border="1px solid #41F50C" width={"40px"} height="40px" ml="30px">
                             <img src={IMG_CIRCLE} width="100%" height="100%" alt="" style={{
-                                borderRadius:"100%"
+                                borderRadius: "100%"
                             }} />
                         </Box>
                         <CollectionLetter01 display={"flex"} ml="10px" flexDirection="column" color="white" fontSize="1rem" fontWeight={"600"}>
@@ -182,15 +186,15 @@ const GalaticMarket = () => {
                         </CollectionLetter01>
                     </ArtCollections01>
                     <ArtCollections01 display={"flex"} alignItems="center" justifyContent={"center"} onClick={() => {
-                navigate("/art_collections");
-                window.scrollTo(0, 0);
-            }}>
+                        navigate("/art_collections");
+                        window.scrollTo(0, 0);
+                    }}>
                         <Box display={"flex"} color="white" fontSize="2rem" fontWeight={"700"}>
                             8
                         </Box>
                         <Box display={"flex"} borderRadius="100%" border="1px solid #41F50C" width={"40px"} height="40px" ml="30px">
                             <img src={IMG_CIRCLE} width="100%" height="100%" alt="" style={{
-                                borderRadius:"100%"
+                                borderRadius: "100%"
                             }} />
                         </Box>
                         <CollectionLetter01 display={"flex"} ml="10px" flexDirection="column" color="white" fontSize="1rem" fontWeight={"600"}>
@@ -199,15 +203,15 @@ const GalaticMarket = () => {
                         </CollectionLetter01>
                     </ArtCollections01>
                     <ArtCollections01 display={"flex"} alignItems="center" justifyContent={"center"} onClick={() => {
-                navigate("/art_collections");
-                window.scrollTo(0, 0);
-            }}>
+                        navigate("/art_collections");
+                        window.scrollTo(0, 0);
+                    }}>
                         <Box display={"flex"} color="white" fontSize="2rem" fontWeight={"700"}>
                             9
                         </Box>
                         <Box display={"flex"} borderRadius="100%" border="1px solid #41F50C" width={"40px"} height="40px" ml="30px">
                             <img src={IMG_CIRCLE} width="100%" height="100%" alt="" style={{
-                                borderRadius:"100%"
+                                borderRadius: "100%"
                             }} />
                         </Box>
                         <CollectionLetter01 display={"flex"} ml="10px" flexDirection="column" color="white" fontSize="1rem" fontWeight={"600"}>
@@ -216,15 +220,15 @@ const GalaticMarket = () => {
                         </CollectionLetter01>
                     </ArtCollections01>
                     <ArtCollections01 display={"flex"} alignItems="center" justifyContent={"center"} onClick={() => {
-                navigate("/art_collections");
-                window.scrollTo(0, 0);
-            }}>
+                        navigate("/art_collections");
+                        window.scrollTo(0, 0);
+                    }}>
                         <Box display={"flex"} color="white" fontSize="2rem" fontWeight={"700"}>
                             10
                         </Box>
                         <Box display={"flex"} borderRadius="100%" border="1px solid #41F50C" width={"40px"} height="40px" ml="30px">
                             <img src={IMG_CIRCLE} width="100%" height="100%" alt="" style={{
-                                borderRadius:"100%"
+                                borderRadius: "100%"
                             }} />
                         </Box>
                         <CollectionLetter01 display={"flex"} ml="10px" flexDirection="column" color="white" fontSize="1rem" fontWeight={"600"}>
@@ -233,15 +237,15 @@ const GalaticMarket = () => {
                         </CollectionLetter01>
                     </ArtCollections01>
                     <ArtCollections01 display={"flex"} alignItems="center" justifyContent={"center"} onClick={() => {
-                navigate("/art_collections");
-                window.scrollTo(0, 0);
-            }}>
+                        navigate("/art_collections");
+                        window.scrollTo(0, 0);
+                    }}>
                         <Box display={"flex"} color="white" fontSize="2rem" fontWeight={"700"}>
                             11
                         </Box>
                         <Box display={"flex"} borderRadius="100%" border="1px solid #41F50C" width={"40px"} height="40px" ml="30px">
                             <img src={IMG_CIRCLE} width="100%" height="100%" alt="" style={{
-                                borderRadius:"100%"
+                                borderRadius: "100%"
                             }} />
                         </Box>
                         <CollectionLetter01 display={"flex"} ml="10px" flexDirection="column" color="white" fontSize="1rem" fontWeight={"600"}>
@@ -250,15 +254,15 @@ const GalaticMarket = () => {
                         </CollectionLetter01>
                     </ArtCollections01>
                     <ArtCollections01 display={"flex"} alignItems="center" justifyContent={"center"} onClick={() => {
-                navigate("/art_collections");
-                window.scrollTo(0, 0);
-            }}>
+                        navigate("/art_collections");
+                        window.scrollTo(0, 0);
+                    }}>
                         <Box display={"flex"} color="white" fontSize="2rem" fontWeight={"700"}>
                             12
                         </Box>
                         <Box display={"flex"} borderRadius="100%" border="1px solid #41F50C" width={"40px"} height="40px" ml="30px">
                             <img src={IMG_CIRCLE} width="100%" height="100%" alt="" style={{
-                                borderRadius:"100%"
+                                borderRadius: "100%"
                             }} />
                         </Box>
                         <CollectionLetter01 display={"flex"} ml="10px" flexDirection="column" color="white" fontSize="1rem" fontWeight={"600"}>
@@ -288,138 +292,210 @@ const GalaticMarket = () => {
                     Top Sellers
                 </LetterBox01>
                 <Artists01>
-                    <Box display={"flex"} alignItems="center" justifyContent={"center"}>
+                    <ArtCollections01 display={"flex"} alignItems="center" justifyContent={"center"} onClick={() => {
+                        navigate("/art_collections");
+                        window.scrollTo(0, 0);
+                    }}>
                         <Box display={"flex"} color="white" fontSize="2rem" fontWeight={"700"}>
                             1
                         </Box>
                         <Box display={"flex"} borderRadius="100%" border="1px solid #41F50C" width={"40px"} height="40px" ml="30px">
+                            <img src={IMG_CIRCLE} width="100%" height="100%" alt="" style={{
+                                borderRadius: "100%"
+                            }} />
                         </Box>
-                        <Box display={"flex"} ml="10px" flexDirection="column" color="white" fontSize="1rem" fontWeight={"600"}>
+                        <CollectionLetter01 display={"flex"} ml="10px" flexDirection="column" color="white" fontSize="1rem" fontWeight={"600"}>
                             <Box display={"flex"}>ALIEN INVASION CLUB</Box>
                             <Box display={"flex"}>$7,659,944</Box>
-                        </Box>
-                    </Box>
-                    <Box display={"flex"} alignItems="center" justifyContent={"center"}>
+                        </CollectionLetter01>
+                    </ArtCollections01>
+                    <ArtCollections01 display={"flex"} alignItems="center" justifyContent={"center"} onClick={() => {
+                        navigate("/art_collections");
+                        window.scrollTo(0, 0);
+                    }}>
                         <Box display={"flex"} color="white" fontSize="2rem" fontWeight={"700"}>
                             2
                         </Box>
                         <Box display={"flex"} borderRadius="100%" border="1px solid #41F50C" width={"40px"} height="40px" ml="30px">
+                            <img src={IMG_CIRCLE} width="100%" height="100%" alt="" style={{
+                                borderRadius: "100%"
+                            }} />
                         </Box>
-                        <Box display={"flex"} ml="10px" flexDirection="column" color="white" fontSize="1rem" fontWeight={"600"}>
+                        <CollectionLetter01 display={"flex"} ml="10px" flexDirection="column" color="white" fontSize="1rem" fontWeight={"600"}>
                             <Box display={"flex"}>ALIEN INVASION CLUB</Box>
                             <Box display={"flex"}>$7,659,944</Box>
-                        </Box>
-                    </Box>
-                    <Box display={"flex"} alignItems="center" justifyContent={"center"}>
+                        </CollectionLetter01>
+                    </ArtCollections01>
+                    <ArtCollections01 display={"flex"} alignItems="center" justifyContent={"center"} onClick={() => {
+                        navigate("/art_collections");
+                        window.scrollTo(0, 0);
+                    }}>
                         <Box display={"flex"} color="white" fontSize="2rem" fontWeight={"700"}>
                             3
                         </Box>
                         <Box display={"flex"} borderRadius="100%" border="1px solid #41F50C" width={"40px"} height="40px" ml="30px">
+                            <img src={IMG_CIRCLE} width="100%" height="100%" alt="" style={{
+                                borderRadius: "100%"
+                            }} />
                         </Box>
-                        <Box display={"flex"} ml="10px" flexDirection="column" color="white" fontSize="1rem" fontWeight={"600"}>
+                        <CollectionLetter01 display={"flex"} ml="10px" flexDirection="column" color="white" fontSize="1rem" fontWeight={"600"}>
                             <Box display={"flex"}>ALIEN INVASION CLUB</Box>
                             <Box display={"flex"}>$7,659,944</Box>
-                        </Box>
-                    </Box>
-                    <Box display={"flex"} alignItems="center" justifyContent={"center"}>
+                        </CollectionLetter01>
+                    </ArtCollections01>
+                    <ArtCollections01 display={"flex"} alignItems="center" justifyContent={"center"} onClick={() => {
+                        navigate("/art_collections");
+                        window.scrollTo(0, 0);
+                    }}>
                         <Box display={"flex"} color="white" fontSize="2rem" fontWeight={"700"}>
                             4
                         </Box>
                         <Box display={"flex"} borderRadius="100%" border="1px solid #41F50C" width={"40px"} height="40px" ml="30px">
+                            <img src={IMG_CIRCLE} width="100%" height="100%" alt="" style={{
+                                borderRadius: "100%"
+                            }} />
                         </Box>
-                        <Box display={"flex"} ml="10px" flexDirection="column" color="white" fontSize="1rem" fontWeight={"600"}>
+                        <CollectionLetter01 display={"flex"} ml="10px" flexDirection="column" color="white" fontSize="1rem" fontWeight={"600"}>
                             <Box display={"flex"}>ALIEN INVASION CLUB</Box>
                             <Box display={"flex"}>$7,659,944</Box>
-                        </Box>
-                    </Box>
-                    <Box display={"flex"} alignItems="center" justifyContent={"center"}>
+                        </CollectionLetter01>
+                    </ArtCollections01>
+                    <ArtCollections01 display={"flex"} alignItems="center" justifyContent={"center"} onClick={() => {
+                        navigate("/art_collections");
+                        window.scrollTo(0, 0);
+                    }}>
                         <Box display={"flex"} color="white" fontSize="2rem" fontWeight={"700"}>
                             5
                         </Box>
                         <Box display={"flex"} borderRadius="100%" border="1px solid #41F50C" width={"40px"} height="40px" ml="30px">
+                            <img src={IMG_CIRCLE} width="100%" height="100%" alt="" style={{
+                                borderRadius: "100%"
+                            }} />
                         </Box>
-                        <Box display={"flex"} ml="10px" flexDirection="column" color="white" fontSize="1rem" fontWeight={"600"}>
+                        <CollectionLetter01 display={"flex"} ml="10px" flexDirection="column" color="white" fontSize="1rem" fontWeight={"600"}>
                             <Box display={"flex"}>ALIEN INVASION CLUB</Box>
                             <Box display={"flex"}>$7,659,944</Box>
-                        </Box>
-                    </Box>
-                    <Box display={"flex"} alignItems="center" justifyContent={"center"}>
+                        </CollectionLetter01>
+                    </ArtCollections01>
+                    <ArtCollections01 display={"flex"} alignItems="center" justifyContent={"center"} onClick={() => {
+                        navigate("/art_collections");
+                        window.scrollTo(0, 0);
+                    }}>
                         <Box display={"flex"} color="white" fontSize="2rem" fontWeight={"700"}>
                             6
                         </Box>
                         <Box display={"flex"} borderRadius="100%" border="1px solid #41F50C" width={"40px"} height="40px" ml="30px">
+                            <img src={IMG_CIRCLE} width="100%" height="100%" alt="" style={{
+                                borderRadius: "100%"
+                            }} />
                         </Box>
-                        <Box display={"flex"} ml="10px" flexDirection="column" color="white" fontSize="1rem" fontWeight={"600"}>
+                        <CollectionLetter01 display={"flex"} ml="10px" flexDirection="column" color="white" fontSize="1rem" fontWeight={"600"}>
                             <Box display={"flex"}>ALIEN INVASION CLUB</Box>
                             <Box display={"flex"}>$7,659,944</Box>
-                        </Box>
-                    </Box>
-                    <Box display={"flex"} alignItems="center" justifyContent={"center"}>
+                        </CollectionLetter01>
+                    </ArtCollections01>
+                    <ArtCollections01 display={"flex"} alignItems="center" justifyContent={"center"} onClick={() => {
+                        navigate("/art_collections");
+                        window.scrollTo(0, 0);
+                    }}>
                         <Box display={"flex"} color="white" fontSize="2rem" fontWeight={"700"}>
                             7
                         </Box>
                         <Box display={"flex"} borderRadius="100%" border="1px solid #41F50C" width={"40px"} height="40px" ml="30px">
+                            <img src={IMG_CIRCLE} width="100%" height="100%" alt="" style={{
+                                borderRadius: "100%"
+                            }} />
                         </Box>
-                        <Box display={"flex"} ml="10px" flexDirection="column" color="white" fontSize="1rem" fontWeight={"600"}>
+                        <CollectionLetter01 display={"flex"} ml="10px" flexDirection="column" color="white" fontSize="1rem" fontWeight={"600"}>
                             <Box display={"flex"}>ALIEN INVASION CLUB</Box>
                             <Box display={"flex"}>$7,659,944</Box>
-                        </Box>
-                    </Box>
-                    <Box display={"flex"} alignItems="center" justifyContent={"center"}>
+                        </CollectionLetter01>
+                    </ArtCollections01>
+                    <ArtCollections01 display={"flex"} alignItems="center" justifyContent={"center"} onClick={() => {
+                        navigate("/art_collections");
+                        window.scrollTo(0, 0);
+                    }}>
                         <Box display={"flex"} color="white" fontSize="2rem" fontWeight={"700"}>
                             8
                         </Box>
                         <Box display={"flex"} borderRadius="100%" border="1px solid #41F50C" width={"40px"} height="40px" ml="30px">
+                            <img src={IMG_CIRCLE} width="100%" height="100%" alt="" style={{
+                                borderRadius: "100%"
+                            }} />
                         </Box>
-                        <Box display={"flex"} ml="10px" flexDirection="column" color="white" fontSize="1rem" fontWeight={"600"}>
+                        <CollectionLetter01 display={"flex"} ml="10px" flexDirection="column" color="white" fontSize="1rem" fontWeight={"600"}>
                             <Box display={"flex"}>ALIEN INVASION CLUB</Box>
                             <Box display={"flex"}>$7,659,944</Box>
-                        </Box>
-                    </Box>
-                    <Box display={"flex"} alignItems="center" justifyContent={"center"}>
+                        </CollectionLetter01>
+                    </ArtCollections01>
+                    <ArtCollections01 display={"flex"} alignItems="center" justifyContent={"center"} onClick={() => {
+                        navigate("/art_collections");
+                        window.scrollTo(0, 0);
+                    }}>
                         <Box display={"flex"} color="white" fontSize="2rem" fontWeight={"700"}>
                             9
                         </Box>
                         <Box display={"flex"} borderRadius="100%" border="1px solid #41F50C" width={"40px"} height="40px" ml="30px">
+                            <img src={IMG_CIRCLE} width="100%" height="100%" alt="" style={{
+                                borderRadius: "100%"
+                            }} />
                         </Box>
-                        <Box display={"flex"} ml="10px" flexDirection="column" color="white" fontSize="1rem" fontWeight={"600"}>
+                        <CollectionLetter01 display={"flex"} ml="10px" flexDirection="column" color="white" fontSize="1rem" fontWeight={"600"}>
                             <Box display={"flex"}>ALIEN INVASION CLUB</Box>
                             <Box display={"flex"}>$7,659,944</Box>
-                        </Box>
-                    </Box>
-                    <Box display={"flex"} alignItems="center" justifyContent={"center"}>
+                        </CollectionLetter01>
+                    </ArtCollections01>
+                    <ArtCollections01 display={"flex"} alignItems="center" justifyContent={"center"} onClick={() => {
+                        navigate("/art_collections");
+                        window.scrollTo(0, 0);
+                    }}>
                         <Box display={"flex"} color="white" fontSize="2rem" fontWeight={"700"}>
                             10
                         </Box>
                         <Box display={"flex"} borderRadius="100%" border="1px solid #41F50C" width={"40px"} height="40px" ml="30px">
+                            <img src={IMG_CIRCLE} width="100%" height="100%" alt="" style={{
+                                borderRadius: "100%"
+                            }} />
                         </Box>
-                        <Box display={"flex"} ml="10px" flexDirection="column" color="white" fontSize="1rem" fontWeight={"600"}>
+                        <CollectionLetter01 display={"flex"} ml="10px" flexDirection="column" color="white" fontSize="1rem" fontWeight={"600"}>
                             <Box display={"flex"}>ALIEN INVASION CLUB</Box>
                             <Box display={"flex"}>$7,659,944</Box>
-                        </Box>
-                    </Box>
-                    <Box display={"flex"} alignItems="center" justifyContent={"center"}>
+                        </CollectionLetter01>
+                    </ArtCollections01>
+                    <ArtCollections01 display={"flex"} alignItems="center" justifyContent={"center"} onClick={() => {
+                        navigate("/art_collections");
+                        window.scrollTo(0, 0);
+                    }}>
                         <Box display={"flex"} color="white" fontSize="2rem" fontWeight={"700"}>
                             11
                         </Box>
                         <Box display={"flex"} borderRadius="100%" border="1px solid #41F50C" width={"40px"} height="40px" ml="30px">
+                            <img src={IMG_CIRCLE} width="100%" height="100%" alt="" style={{
+                                borderRadius: "100%"
+                            }} />
                         </Box>
-                        <Box display={"flex"} ml="10px" flexDirection="column" color="white" fontSize="1rem" fontWeight={"600"}>
+                        <CollectionLetter01 display={"flex"} ml="10px" flexDirection="column" color="white" fontSize="1rem" fontWeight={"600"}>
                             <Box display={"flex"}>ALIEN INVASION CLUB</Box>
                             <Box display={"flex"}>$7,659,944</Box>
-                        </Box>
-                    </Box>
-                    <Box display={"flex"} alignItems="center" justifyContent={"center"}>
+                        </CollectionLetter01>
+                    </ArtCollections01>
+                    <ArtCollections01 display={"flex"} alignItems="center" justifyContent={"center"} onClick={() => {
+                        navigate("/art_collections");
+                        window.scrollTo(0, 0);
+                    }}>
                         <Box display={"flex"} color="white" fontSize="2rem" fontWeight={"700"}>
                             12
                         </Box>
                         <Box display={"flex"} borderRadius="100%" border="1px solid #41F50C" width={"40px"} height="40px" ml="30px">
+                            <img src={IMG_CIRCLE} width="100%" height="100%" alt="" style={{
+                                borderRadius: "100%"
+                            }} />
                         </Box>
-                        <Box display={"flex"} ml="10px" flexDirection="column" color="white" fontSize="1rem" fontWeight={"600"}>
+                        <CollectionLetter01 display={"flex"} ml="10px" flexDirection="column" color="white" fontSize="1rem" fontWeight={"600"}>
                             <Box display={"flex"}>ALIEN INVASION CLUB</Box>
                             <Box display={"flex"}>$7,659,944</Box>
-                        </Box>
-                    </Box>
+                        </CollectionLetter01>
+                    </ArtCollections01>
                 </Artists01>
                 <LetterBox01>
                     Live bids
@@ -539,7 +615,7 @@ const ArtCollections01 = styled(Box)`
         cursor: pointer;
     }
 `
-const CollectionLetter01 =styled(Box)`
+const CollectionLetter01 = styled(Box)`
     display: flex;
     margin-left: 10px;
     flex-direction: column;
